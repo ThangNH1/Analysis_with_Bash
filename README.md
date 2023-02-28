@@ -1,5 +1,8 @@
-# Analysis_with_Bash
-**Problem**: Leader team AI xử lý ngôn ngữ tự nhiên NLP có yêu cầu phân tích cơ bản vài file dữ liệu để team NLP có đánh giá sơ bộ trước khi process tiếp. Tuy nhiên với lý do bảo mật file cần được xử lý và thống kê trên server và chưa có cài đặt Python, cần nhờ Data Engineer support
+# [Bash Script] Analysis with Bash
+
+## Introduction
+
+**Bài toán**: Phân tích cơ bản vài file dữ liệu để có đánh giá sơ bộ trước khi process tiếp. Tuy nhiên với lý do bảo mật file cần được xử lý và thống kê trên server và chưa có cài đặt Python
 
 **Yêu cầu**:
 
@@ -29,4 +32,21 @@
         6. Combine the used commands from the last two tasks and write a bash-script
         (sequence of commands), which delete all british cities from the file city.csv
 
-Kết quả: Gửi lại file [result.sh] cho tất cả các tác vụ trên
+Output: File [result.sh] cho tất cả các tác vụ trên
+
+## How to use project
+
+Step 1 : In LinuxOS, clone my project 
+
+`git clone https://github.com/thangnh1/Analysis_with_Bash.git`
+
+Step 2 : Run commands
+
+`cd Analysis_with_Bash`
+`bash result.sh`
+
+or
+
+`cd Analysis_with_Bash`
+`chmod +x result.sh`
+`./result.sh`
